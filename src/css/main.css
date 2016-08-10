@@ -1,0 +1,222 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 120px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 100px;
+    margin-top: 8%;
+    text-shadow: 0px 0px #000000;
+}
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    color: #777;
+    margin-top: 45px;
+}
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    text-align: center;
+    color: #777;
+}
+h5 {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+#copyright {
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+}
+#how-it-works {
+    background: rgba(0, 0, 0, 0);
+    width: 60%;
+    height: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    border: 2px solid white !important;
+    outline: none;
+}
+#how-it-works:hover {
+    background-color: white;
+    color: orange;
+}
+#how-it-works::selection {}
+.details {
+    margin-top: 60px;
+}
+.contact-info {}
+.mugshot {
+    border-radius: 50%;
+    max-width: 50%;
+    border: 2px solid orange;
+    margin-bottom: 25px;
+}
+.description {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-view {
+    width: 100%;
+    margin: 0;
+    background-color: #37383A;
+}
+.footer-fluid {
+    padding: 0;
+}
+.banner {
+
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: repeat, no-repeat;
+    z-index: -1;
+}
+.share-icon {
+    max-width: 45px;
+    padding: 0px;
+    margin: 25px;
+}
+.footer {
+    margin-top: 45px;
+}
+.mugshot {
+    text-align: center;
+}
+.mugshot:hover {}
+.team-social {
+    max-width: 12%;
+}
+.grow {
+    transform: scale(0.0);
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.1);
+}
+.nav>li>a>img {
+    max-width: 15px;
+    margin: 0;
+}
+a:hover {
+    cursor: pointer;
+}
+.appstore {
+    margin-top: 45px;
+}
+.share-icon:hover {
+    opacity: .85;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background: gray;
+    border-radius: 2px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+    background: rgba(0, 0, 0, 0);
+    color: orange;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+    background: rgb(147, 151, 153);
+    color: white;
+}
+#header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/squadsnaplaunch.jpeg");
+    /*background-image: url("../../images/squadsnaplaunch.jpeg")*/
+}
+#screenshot {
+    max-width: 100%;
+    display: inline;
+}
+
+#logo {
+  border-radius: 20px;
+  margin-top: 30px;
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #777;
+    font-size: 18px;
+
+}
+.det-screenshot {
+    max-width: 100%;
+}
+.det-screenshot:hover {
+    opacity: 0.75;
+}
+.center-block-left {
+    color: white;
+    margin-top: 0%;
+    /*padding-left: 30%;*/
+}
+.brand {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: block;
+    text-decoration: none;
+    margin-top: 2px;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    color: orange;
+}
+.brand:hover {
+    color: orange;
+    text-decoration: none;
+}
+.address {
+
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+.background {
+    background: url(../../images/squadsnaplaunch.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

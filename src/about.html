@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link href="./css/main.css" rel="stylesheet" type="text/css">
+    <title>Team</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a class="brand" href="#">SquadSnap</a>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="facebook-white-link" href="https://www.facebook.com/SquadSnap"><img class="nav-share-icon" src="../images/facebookwhite.png"></a>
+                    </li>
+                    <li>
+                        <a class="twitter-white-link" href="https://twitter.com/squadsnapapp"><img class="nav-share-icon" src="../images/twitterwhite.png"></a>
+                    </li>
+                    <li>
+                        <a class="instagram-white-link" href="https://www.instagram.com/squadsnapapp/?hl=en"><img class="nav-share-icon" src="../images/instagramwhite.png"></a>
+                    </li>
+                    <li class="active link"><a class="learnmore" href="about.html">Learn More</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="body address">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="" id="meet">About us.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                  <p>SquadSnap is an ephemeral group messaging platform aiming to bring groups of people closer to one another. Since its founding at the University of Notre Dame in 2016, the platform has continually improved as its user base has grown.</p>
+                    <p>On December 1, 2015, co-founders Devon Krapcho and John Joyce met for the first time. They discussed the initial idea of an ephemeral group messaging app they deemed 'SquadSnap'. By mid January 2016, a working iOS build
+                        had been developed and was ready to enter beta testing. On January 25, SquadSnap launched its beta test, initially bringing on 30 testers. After seeing promising metrics, with the app's frequency of use following an upward trend as the beta period continued,
+                        the team decided to enter the Shurz Innovation Challenge, an innovation competition hosted by the Innovation Park incubator in Notre Dame, IN. On February 17th they presented and demonstrated the iOS application to a panel of 4 judges, taking home
+                        a $1500 coding prize. By late February, SquadSnap had officially become an LLC. In mid March, SquadSnap entered yet another tech competition. The platform won first place in the University of Notre Dame's App Competition, being scored particularly highly in areas
+                        pertaining to user experience, design, performance, and creativity.
+                    </p>
+                    <p>After many iterations, the application is now available on the App Store. Since its release, the platform has experienced a promising DAU and user-retention rate. Major UI updates as well as added features are expected to be complete by August of 2016.
+                    </p>
+
+                </div>
+                <div class="col-md-6">
+                  <div class="text-center">
+                    <img id="logo" src="../images/sslogo.png">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container-fluid footer-fluid">
+            <div class="footer-view">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <a class="social-media-link" href="https://www.facebook.com/SquadSnap"><img src="../images/facebook.png" class="share-icon facebook" title="Share on facebook"></a>
+                        <a class="social-media-link" href="https://twitter.com/squadsnapapp"><img src="../images/twitter.png" class="share-icon twitter" title="Share on twitter"></a>
+                        <a class="social-media-link" href="https://www.instagram.com/squadsnapapp/?hl=en"><img src="../images/instagram.png" class="share-icon instagram" title="Share on instagram"></a>
+                    </div>
+                </div>
+
+
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div id="copyright">
+                            <h5> © SquadSnap LLC 2016</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $("button").click(function() {
+            $('html,body').animate({
+                    scrollTop: $(".description").offset().top
+                },
+                'slow');
+        });
+    </script>
+</body>
+
+</html>
